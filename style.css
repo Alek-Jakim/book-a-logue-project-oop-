@@ -41,9 +41,18 @@
 }
 
 body {
-    background: rgb(37, 37, 37);
-    color: #68d868;
+    color: #000000;
     font-family: 'Poppins', sans-serif;
+    background: rgba(0, 0, 0, 0.3) url('./background.jpg') no-repeat center right / cover;
+}
+
+
+.container {
+  margin: 50px auto;
+  padding: 20px 50px;
+  border: 5px solid #000;
+  background: #f3f3f3;
+  position: relative;
 }
 
 h1, h3 {
@@ -53,13 +62,13 @@ h1, h3 {
 }
 
 #input {
-    color: #68d868;
-    border-color: #68d868;
+    color: #f3f3f3;
+    background: #333;
 }
 
 #input:hover {
     background-color: rgb(34, 34, 34);
-    color: #209b20;
+    color: #f4f4f4;
 }
 
 .fa {
